@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CarLibrary
+﻿namespace CarLibrary
 {
     // Represents the state of the engine.
     public enum EngineState { engineAlive, engineDead }
