@@ -34,7 +34,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>myKeyPair.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>mySecondKeyPair.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="myKeyPair.snk" />
+    <None Include="mySecondKeyPair.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
